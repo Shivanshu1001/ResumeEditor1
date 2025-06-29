@@ -45,14 +45,14 @@ cd frontend
 npm install
 npm start
 
-Runs on: http://localhost:3000
+Runs on: http://localhost:4000
 ## 🐍 Backend (FastAPI)
 
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
 
-Runs on: http://localhost:8000
+Runs on: http://localhost:4000
 ## 🔗 API Endpoints
 
 POST /ai-enhance
