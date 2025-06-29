@@ -6,11 +6,11 @@ const UploadSection = ({ onUpload }) => {
     if (file) {
       // Mock parsing: create dummy resume
       const dummyResume = {
-        name: "John Doe",
+        name: "Shivanshu Mishra",
         summary: "Experienced developer with strong frontend skills.",
         experience: [{ company: "ABC Corp", role: "Frontend Developer" }],
-        education: [{ institution: "XYZ University", degree: "B.Tech" }],
-        skills: ["React", "JavaScript", "CSS"]
+        education: [{ institution: "Kamla Nehru Institute of Technology, Sultanpur", degree: "B.Tech" }],
+        skills: ["React", "JavaScript", "CSS", "HTML",....]
       };
       onUpload(dummyResume);
     }
